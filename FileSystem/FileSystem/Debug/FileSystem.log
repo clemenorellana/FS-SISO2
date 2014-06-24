@@ -1,0 +1,39 @@
+﻿Build started 6/24/2014 2:54:03 AM.
+     1>Project "C:\Users\clemen\Desktop\FS-proyecto\FileSystem\FileSystem\FileSystem\FileSystem.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DeviceFS.cpp lib.cpp main.cpp Shell.cpp SuperFS.cpp Utilities.cpp
+         Utilities.cpp
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\utilities.cpp(20): warning C4018: '<' : no coinciden signed/unsigned
+         SuperFS.cpp
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\superfs.cpp(75): warning C4101: 'context' : variable local sin referencia
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\superfs.cpp(119): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\superfs.cpp(373): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : vea la declaración de 'strcpy'
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\superfs.cpp(465): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\superfs.cpp(743): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : vea la declaración de 'strcpy'
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\superfs.cpp(782): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\superfs.cpp(820): warning C4018: '<' : no coinciden signed/unsigned
+         Shell.cpp
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\shell.cpp(84): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\shell.cpp(87): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : vea la declaración de 'scanf'
+         main.cpp
+         lib.cpp
+         DeviceFS.cpp
+         Generando código...
+     1>c:\users\clemen\desktop\fs-proyecto\filesystem\filesystem\filesystem\superfs.cpp(838): warning C4700: se utilizó la variable local 'temData' sin inicializar
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\clemen\Desktop\FS-proyecto\FileSystem\FileSystem\Debug\FileSystem.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\clemen\Desktop\FS-proyecto\FileSystem\FileSystem\Debug\FileSystem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\clemen\Desktop\FS-proyecto\FileSystem\FileSystem\Debug\FileSystem.lib" /MACHINE:X86 Debug\DeviceFS.obj
+         Debug\lib.obj
+         Debug\main.obj
+         Debug\Shell.obj
+         Debug\SuperFS.obj
+         Debug\Utilities.obj
+         FileSystem.vcxproj -> C:\Users\clemen\Desktop\FS-proyecto\FileSystem\FileSystem\Debug\FileSystem.exe
+     1>Done Building Project "C:\Users\clemen\Desktop\FS-proyecto\FileSystem\FileSystem\FileSystem\FileSystem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.30
